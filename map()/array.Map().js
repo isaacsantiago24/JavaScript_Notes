@@ -165,3 +165,62 @@ console.log(list);
 // "<h1>Paris Hilton</h1><h2>5</h2>",
 // "<h1>Kayne West</h1><h2>16</h2>",
 // "<h1>Bob Ziroll</h1><h2>100</h2>"]
+
+///////////////////////////////////////////////////////////////////
+//EXERCISE 2
+const characters = [
+  {
+    name: "Luke Skywalker",
+    height: "172",
+    mass: "77",
+    eye_color: "blue",
+    gender: "male",
+  },
+  {
+    name: "Darth Vader",
+    height: "202",
+    mass: "136",
+    eye_color: "yellow",
+    gender: "male",
+  },
+  {
+    name: "Leia Organa",
+    height: "150",
+    mass: "49",
+    eye_color: "brown",
+    gender: "female",
+  },
+  {
+    name: "Anakin Skywalker",
+    height: "188",
+    mass: "84",
+    eye_color: "blue",
+    gender: "male",
+  },
+];
+
+//1. Get an array of all names
+const allNames = characters.map((character) => {
+  return character.name;
+});
+
+console.log(allNames);
+
+//2. Get an array of all heights
+
+const allHeights = characters.map((char) => "height is " + char.height);
+console.log(allHeights);
+
+//3.Get an array of objects with just name and height properties
+const nameHeight = characters.map((char) => {
+  return `character name is: ${char.name} , their height is: ${char.height}`;
+});
+
+console.log(nameHeight);
+
+//4. Get an array of all first names
+const firstName = characters.map((person) => {
+  return person.name.split(" ")[0];
+});
+
+console.log(firstName);
