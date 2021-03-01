@@ -21,7 +21,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 const numbers2 = numbers.slice(2);
 
-console.log(numbers2); // [2, 3,4,5] you get all the index starting at index 1
+console.log(numbers2); // [3,4,5] you get all the index starting at index 1
 
 //4.
 const participants = ["joey", "kells", "chris", "bobby", "alex"];
