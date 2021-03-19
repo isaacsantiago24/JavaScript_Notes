@@ -18,6 +18,7 @@ console.log(getFileExtension("index.html"));
 //Write a JavaScript program to replace every character
 //in a given string with the character following it in the alphabet
 
+//built in functions
 //String.fromCharCode
 //charCodeAt
 
@@ -28,3 +29,16 @@ const moveCharsForward = (str) =>
     .join("");
 
 console.log(moveCharsForward("abcd"));
+
+//Ex4
+//Write a JavaScript program to get the current date.
+//Expected: mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
+
+const formatDate = (date = new Date()) => {
+  const days = date.getDate() + 1;
+  const months = date.getMonth() + 1;
+  const years = date.getFullYear();
+
+  return `${days}/${months}/${years}`;
+};
+console.log(formatDate());
