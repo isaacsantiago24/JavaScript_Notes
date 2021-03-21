@@ -46,3 +46,11 @@ const companies = [
 companies.forEach((company) => {
   console.log(company.name);
 });
+
+///////////////////////////////////////////////////////////////////////
+const days = ["mon", "tues", "wed", "thurs", "fri", "sat"];
+
+//get access to all of them
+days.forEach((day, idx) => {
+  console.log(`today is ${day} and has an index of ${idx}`);
+});
