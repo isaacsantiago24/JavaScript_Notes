@@ -26,6 +26,6 @@ console.log(numbers2); // [3,4,5] you get all the index starting at index 1
 //4.
 const participants = ["joey", "kells", "chris", "bobby", "alex"];
 
-const winners = participants.slice(0, 3); // the second index(3) is not included . stops 1 before
+const winners = participants.slice(1, 3); // the second index(3) is not included . stops 1 before
 
 console.log(winners); //["joey", "kells", "chris"]
