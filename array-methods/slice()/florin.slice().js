@@ -29,3 +29,7 @@ const participants = ["joey", "kells", "chris", "bobby", "alex"];
 const winners = participants.slice(1, 3); // the second index(3) is not included . stops 1 before
 
 console.log(winners); //["joey", "kells", "chris"]
+
+let fruit = "banana";
+
+console.log(fruit.find("n"));

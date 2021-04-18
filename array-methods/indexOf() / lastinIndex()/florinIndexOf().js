@@ -6,7 +6,7 @@ const names = ["Florin", "Isaac", "Gabe"];
 console.log(names.indexOf("Isaac")); //1
 
 //ex1
-const names = ["Florin", "Isaac", "Gabe"];
+const names = ["Florin", "Isaac", "Gabe", "Jake"];
 
 const idx = names.indexOf("Isaac");
 

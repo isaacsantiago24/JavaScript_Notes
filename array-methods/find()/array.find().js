@@ -15,3 +15,11 @@ const searchVideo = videos.find(function (video) {
 console.log(searchVideo); //photoshop tutorial
 
 ///////////////////////////////////////////////////////////////////////////
+
+var age = prompt("whats your age?");
+
+if (age >= 18 && age <= 35) {
+  status = "target demo";
+} else {
+  status = "not my target demo";
+}
