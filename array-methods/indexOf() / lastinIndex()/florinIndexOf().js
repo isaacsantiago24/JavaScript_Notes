@@ -1,7 +1,7 @@
 // indexOf() returns the first index in which the given element can be found in the array
 // lastIndexOf() starts from the end of the array
 
-const names = ["Florin", "Isaac", "Gabe","Liam"];
+const names = ["Florin", "Isaac", "Gabe", "Liam", "george"];
 
 console.log(names.indexOf("Isaac")); //1
 
