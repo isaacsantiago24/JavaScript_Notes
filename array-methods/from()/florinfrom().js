@@ -3,7 +3,7 @@
 //Ex1
 //convert string of numbers to a array of numbers
 
-const str = "1234567";
+const str = "12345678";
 
 const res = Array.from(str, mapFn);
 
