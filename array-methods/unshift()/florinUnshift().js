@@ -20,3 +20,10 @@ const numb = [5, 66, 20, 32];
 const addNumbs = numb.unshift(10, 2, 31);
 
 console.log(numb);
+
+//ex4
+const numb = [53, 60, 42, 12];
+
+const addNumbs = numb.unshift(1, 21);
+
+console.log(numb);
