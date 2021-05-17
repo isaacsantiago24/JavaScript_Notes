@@ -15,7 +15,7 @@ const addedNums = nums.unshift(0, 1, 2);
 console.log(addedNums); // 7 numbers are in the array
 
 //ex3
-const numb = [5, 66, 20, 32, 21];
+const numb = [5, 66, 20, 32, 21,30];
 
 const addNumbs = numb.unshift(10, 2, 31);
 
